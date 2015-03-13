@@ -1,8 +1,6 @@
 @font-face {
 	font-family: rs;
-	src: url(RSU_light.ttf);
-	src: url(RSU_BOLD.ttf);
-	src: url(RSU_Regular.ttf);
+	src: url(RSU_Regular.ttf), url(RSU_light.eot);
 }
 
 html,body{
@@ -150,7 +148,7 @@ body{
 	height: 600px;
 }
 .content .img.right{
-	left: 400px;
+	left: 700px;
 }
 .content .img.left{
 	left: 200px;
@@ -185,16 +183,21 @@ a{
 span{
 	padding: 0;
 	margin: 0;
-	line-height: 95%;
+	
+}
+span.head{
+	padding: 0;
+	margin: 0;
+	line-height: 97%;
 }
 
-#hulk_section {
-	background: url('images/hulk.png') 80% 100% no-repeat fixed;
-	position: relative;
+.img_cesc{
+	width: 140px;
+	height: 90px;
+	border: solid 2px #CCCCCC;
+	margin: 0px 2px 0px 2px;
 }
-
-div {
-	height: 200px;
-	width: auto;
+pic a{
+	margin: 0;
+	padding: 0;
 }
-
