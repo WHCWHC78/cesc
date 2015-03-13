@@ -7,7 +7,14 @@
 	<title>CE SMART CAMP 8</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="lib/img-light/img-light.css">
+	<script type="text/javascript" src="scripts/jquery.min.js"></script>
+	<script type="text/javascript" src="scripts/skrollr.min.js"></script>
 	<script src="lib/img-light/img-light.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			var s = skrollr.init();
+		})
+	</script>
 </head>
 <body >
 
@@ -97,7 +104,7 @@
 		<!-- about -->
 		<div class="top detail" >
 			<div class="content">
-				<div class="img left"></div>
+				<div id="hulk_section" class="img left"></div>
 				<div class="text right">
 					<span class="head">รายละเอียดค่าย</span><hr>
 					<span class="body">&nbsp;&nbsp;&nbsp;ค่าย CE Smart Camp #8 จัดขึ้นในวันที่ 27 พฤษภาคม - 1 มิถุนายน 2558 (พักค้างแรม) โดยรับน้อง ม.ปลายจำนวน 80 คนจากทั่วประเทศ แบ่งเป็นสาขา <a href="">Robot</a> 40 คน และสาขา <a href="">Network</a> 40 คน

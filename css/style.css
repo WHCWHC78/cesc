@@ -143,7 +143,7 @@ body{
 	color: #EEEEEE;
 }
 .content .img{
-	background-color: green;
+	/*background-color: green;*/
 	width: 400px;
 	height: 600px;
 }
@@ -200,4 +200,8 @@ span.head{
 pic a{
 	margin: 0;
 	padding: 0;
+}
+
+#hulk_section {
+	background: url("../images/hulk.png") 0 0 no-repeat fixed;
 }
