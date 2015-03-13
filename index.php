@@ -104,7 +104,7 @@
 		<!-- about -->
 		<div class="top detail" >
 			<div class="content">
-				<div id="hulk_section" class="img left"></div>
+				<div id="hulk_section" class="img left"><!--img src="images/hulk.png" /--></div>
 				<div class="text right">
 					<span class="head">รายละเอียดค่าย</span><hr>
 					<span class="body">&nbsp;&nbsp;&nbsp;ค่าย CE Smart Camp #8 จัดขึ้นในวันที่ 27 พฤษภาคม - 1 มิถุนายน 2558 (พักค้างแรม) โดยรับน้อง ม.ปลายจำนวน 80 คนจากทั่วประเทศ แบ่งเป็นสาขา <a href="">Robot</a> 40 คน และสาขา <a href="">Network</a> 40 คน
