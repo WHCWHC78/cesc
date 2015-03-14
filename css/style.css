@@ -77,14 +77,6 @@ body{
 .detail{
 	margin-top: 0px;
 }
-.detail .img{
-	_background-position: center center;
-	_background-image: url("x.png");
-}
-.detail img{
-	margin-top:100px;
-	
-}
 
 .robot{
 	margin-top: 1400px;
@@ -98,11 +90,11 @@ body{
 	margin-top: 4200px;
 }
 
-.map_contect{
+.map_contact{
 	margin-top: 5600px;
 }
 
-.map_contect{
+.map_contact{
 	margin-top: 5600px;
 }
 
@@ -128,7 +120,6 @@ body{
 	background-color: green;
 	z-index: 1;
 }
-
 
 .content{
 	position: absolute;
@@ -183,9 +174,11 @@ hr{
 	padding: 0;
 	color: white;
 }
+
 a{
 	color:#999999;
 }
+
 span{
 	padding: 0;
 	margin: 0;
@@ -202,12 +195,4 @@ span.head{
 	height: 90px;
 	border: solid 2px #CCCCCC;
 	margin: 0px 2px 0px 2px;
-}
-pic a{
-	margin: 0;
-	padding: 0;
-}
-
-#hulk_section {
-	background: url("../images/hulk.png") 0 0 no-repeat fixed;
 }
