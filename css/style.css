@@ -77,6 +77,14 @@ body{
 .detail{
 	margin-top: 0px;
 }
+.detail .img{
+	_background-position: center center;
+	_background-image: url("x.png");
+}
+.detail img{
+	margin-top:100px;
+	
+}
 
 .robot{
 	margin-top: 1400px;
@@ -143,9 +151,10 @@ body{
 	color: #EEEEEE;
 }
 .content .img{
-	/*background-color: green;*/
+	background-color: green;
 	width: 400px;
-	height: 600px;
+	height: 800px;
+	top:-100px;
 }
 .content .img.right{
 	left: 700px;
@@ -167,9 +176,6 @@ body{
 .content .text.left{
 	left: 240px;
 }
-
-
-
 
 hr{
 	width: 100%;
@@ -203,5 +209,5 @@ pic a{
 }
 
 #hulk_section {
-	background: url("../images/hulk.png") 0 0 no-repeat;
+	background: url("../images/hulk.png") 0 0 no-repeat fixed;
 }
